@@ -1,2 +1,3 @@
-import * as babel from "@babel/core";
-const result = babel.transformFileSync("src/temp.js");
+const square = n => {
+  return n * n;
+};
